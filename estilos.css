@@ -34,16 +34,18 @@ section {
     border-style: dashed;
 }
 
-.textcenter{
+.textcenter {
     text-align: center;
 }
-.principal{
+
+.principal {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
+
 .galeria {
- color: rgb(161, 190, 248);
+    color: rgb(161, 190, 248);
     background-color: white;
     border: 3px;
     margin: 8px;
@@ -51,6 +53,9 @@ section {
     border-style: dashed;
 }
 
+.textlimit{
+    max-width: 1000px;
+}
 ul {
     list-style-type: none;
     display: flex;
@@ -115,6 +120,9 @@ p::before {
 
 a:hover {
     background-color: var(--color-secundario);
+    color: var(--color-terciario);
+    border: 3px;
+    border-style: groove;
 }
 
 /* añadir hover */
