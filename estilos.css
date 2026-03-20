@@ -1,0 +1,100 @@
+:root {
+    --color-primario: rgb(255, 161, 161);
+    --color-secundario: rgb(161, 235, 255);
+    --color-terciario: rgb(189, 161, 255);
+}
+
+
+
+font-face {
+    font-family: Jua;
+    src: url("fonts/Jua-Regular.ttf");
+}
+
+body {
+    background-image: url(img/1bg.gif);
+    font-family: "Jua", system-ui;
+    flex: none;
+    flex-direction: column;
+}
+
+a {
+    transition: 0.3 ease;
+}
+
+section {
+    color: aliceblue;
+    background-color: var(--color-terciario);
+    border: 3px;
+    margin: 8px;
+    padding: 20px 20px;
+    border-style: dashed;
+    flex: none;
+    max-width: 1000px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2em;
+}
+
+h4 {
+    color: var(--color-primario);
+}
+
+#titulo {
+    color: var(--color-primario);
+}
+
+#sin {
+    margin: 20px;
+    padding: 10px;
+}
+
+#def {
+    margin: 20px;
+    padding: 10px;
+}
+
+#zoe {
+    margin: 20px;
+    padding: 10px;
+}
+
+#john {
+    margin: 20px;
+    padding: 10px;
+}
+
+#in {
+    margin: 20px;
+    padding: 10px 20px 10px;
+}
+
+#ilus {
+    margin: 20px;
+    padding: 10px 20px 10px;
+}
+
+#con {
+    margin: 20px;
+    padding: 10px 20px 10px;
+}
+
+#for {
+    margin: 20px 10px;
+    padding: 10px 20px 10px;
+}
+
+/* añadir ::before o ::after */
+p::before {
+    content: "! ";
+    color: var(--color-secundario);
+}
+
+a:hover {
+    background-color: var(--color-secundario);
+}
+
+/* añadir hover */
