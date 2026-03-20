@@ -34,9 +34,6 @@ section {
     border-style: dashed;
 }
 
-.textcenter {
-    text-align: center;
-}
 
 .principal {
     justify-content: center;
@@ -53,9 +50,19 @@ section {
     border-style: dashed;
 }
 
-.textlimit{
+.illusimg {
+    margin: 20px;
+    padding: 10px;
+}
+
+.textlimit {
     max-width: 1000px;
 }
+
+.textcenter {
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -72,25 +79,6 @@ h4 {
     color: var(--color-primario);
 }
 
-.sin {
-    margin: 20px;
-    padding: 10px;
-}
-
-.def {
-    margin: 20px;
-    padding: 10px;
-}
-
-.zoe {
-    margin: 20px;
-    padding: 10px;
-}
-
-.maria {
-    margin: 20px;
-    padding: 10px;
-}
 
 #in {
     margin: 20px;
