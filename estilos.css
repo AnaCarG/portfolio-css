@@ -23,8 +23,8 @@ a {
 }
 
 section {
-    color: aliceblue;
-    background-color: var(--color-terciario);
+    color: rgb(161, 190, 248);
+    background-color: white;
     border: 3px;
     margin: 8px;
     padding: 20px 20px;
@@ -43,26 +43,28 @@ h4 {
     color: var(--color-primario);
 }
 
+
+
 #titulo {
     color: var(--color-primario);
 }
 
-#sin {
+.sin {
     margin: 20px;
     padding: 10px;
 }
 
-#def {
+.def {
     margin: 20px;
     padding: 10px;
 }
 
-#zoe {
+.zoe {
     margin: 20px;
     padding: 10px;
 }
 
-#john {
+.def {
     margin: 20px;
     padding: 10px;
 }
@@ -89,8 +91,8 @@ h4 {
 
 /* añadir ::before o ::after */
 p::before {
-    content: "! ";
-    color: var(--color-secundario);
+    content: ">< ,,x> ";
+    color: var(--color-pr);
 }
 
 a:hover {
